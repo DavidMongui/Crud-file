@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crud File</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+    <h1>CrudFile</h1>
+    </div>
+    <br>
+
+    <form>
+       
+        <div class="container">
+            <label>Titulo Del Archivo</label>
+            <br>
+            <br>
+            <input id="fileName" type="text" class="form-control">
+        </div>
+        <br>
+        <br>
+        <div class="container">
+        <label>contenido</label>
+        <br>
+        <br>
+        <textarea id="fileContents" class="form-control" rows="5"></textarea>
+    </div>
+    </form>
+    <br>
+    <br>
+    <button style="align-content: center" id="btnCreate">Create</button>
+    <button style="align-content: center" id="btnRead">Read</button>
+    <button style="align-content: center" id="btnDelete">Delete</button>
+    <script>
+        require('./index.js')
+    </script>
+</body>
+
+</html>
